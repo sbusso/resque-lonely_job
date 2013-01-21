@@ -51,7 +51,7 @@ Let's say you want the serial constraint to apply at a more granular
 level.  Instead of applying at the queue level, you can overwrite the .redis\_key
 method.
 
-    require 'resque/plugins/lonely_job'
+    require 'resque-lonely_job'
 
     class StrictlySerialJob
       extend Resque::Plugins::LonelyJob
