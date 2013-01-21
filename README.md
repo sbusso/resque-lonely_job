@@ -32,7 +32,7 @@ Or install it yourself as:
 
 #### Example #1 -- One job running per queue
 
-    require 'resque/plugins/lonely_job'
+    require 'resque-lonely_job'
 
     class StrictlySerialJob
       extend Resque::Plugins::LonelyJob
